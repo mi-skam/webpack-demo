@@ -1,0 +1,28 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "get accustomed to webpack",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "start-s": "webpack-dev-server --open --https --config webpack.dev.js",
+    "build": "webpack -p --config webpack.prod.js"
+  },
+  "author": "mi-skam",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
